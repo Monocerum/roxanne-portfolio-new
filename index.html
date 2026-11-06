@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>Roxanne's Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/site.webmanifest">
+</head>
+
+<body>
+	<nav class="nav" id="nav" aria-label="Main">
+		<a href="#home">roxanne.</a>
+		<ul>
+			<li><a href="#home">home</a></li>
+			<li><a href="#about">about</a></li>
+			<li><a href="#portfolio">portfolio</a></li>
+		</ul>
+	</nav>
+	<header class="view is-active" id="home">
+		<img class="layer-img mist-top" src="assets/home/background-mist-top.png" alt="Mist on top-left of the background.">
+		<img class="layer-img mist-low" src="assets/home/background-mist-bottom.png" alt="Mist on the bottom-right of the background.">
+		<img class="layer-img wave-back" src="assets/home/wave-back-layer.png" alt="Back layer of the waves in the homepage.">
+
+		<div class="scene">
+			<h1 class="hero-text">
+				<span class="hero-greeting">hi, my name is</span>
+				<span class="hero-name">roxanne!</span>
+			</h1>
+
+			<div class="otter">
+				<img class="otter-img" src="assets/home/otter.png"
+					alt="Illustration of an otter wearing glasses and a floating blue will-o-wisp.">
+			</div>
+		</div>
+		<img class="layer-img is-full wave-middle" src="assets/home/wave-middle-layer.png"
+			alt="Middle layer of the wave background.">
+		<img class="layer-img wave-shadow-3" src="assets/home/shadow-3.png" alt="Shadow of the wave background.">
+		<img class="layer-img wave-shadow-2" src="assets/home/shadow-2.png" alt="Shadow of the wave background.">
+		<img class="layer-img is-full wave-shadow" src="assets/home/shadow-1.png" alt="Shadow of the wave background.">
+		<img class="layer-img is-full wave-front" src="assets/home/wave-front-layer.png"
+			alt="Front layer of the wave background.">
+		<a class="home-btn" href="#menu">portfolio</a>
+	</header>
+
+	<section class="view" id="menu" aria-label="Menu">
+		<img class="layer-img is-full bg-waves" src="assets/menu/bg-waves.png" alt="Background of waves in the menu page.">
+		<ul class="menu-nav">
+			<li>
+				<a class="menu-item menu-item--key menu-home" href="#home">
+					<img class="menu-icon" src="assets/menu/key.png" alt="Key icon for the home navigation item.">
+					<span class="menu-label font-display">home</span>
+				</a>
+			</li>
+			<li>
+				<a class="menu-item menu-portfolio" href="#portfolio">
+					<img class="menu-icon" src="assets/menu/book.png" alt="Book icon for the portfolio navigation item.">
+					<span class="menu-label font-display">portfolio</span>
+				</a>
+			</li>
+			<li>
+				<a class="menu-item menu-contacts" href="#book" data-book-tab="2">
+					<img class="menu-icon" src="assets/menu/mail.png" alt="Mail icon for the contacts navigation item.">
+					<span class="menu-label font-display">contacts</span>
+				</a>
+			</li>
+			<li>
+				<a class="menu-item menu-tools" href="#book" data-book-tab="0">
+					<img class="menu-icon" src="assets/menu/anvil.png" alt="Anvil icon for the tools & skills navigation item.">
+					<span class="menu-label font-display">tools &amp; skills</span>
+				</a>
+			</li>
+			<li>
+				<a class="menu-item menu-about" href="#about">
+					<img class="menu-icon" src="assets/menu/scroll.png" alt="Scroll icon for the about me navigation item.">
+					<span class="menu-label font-display">about me</span>
+				</a>
+			</li>
+		</ul>
+
+		<button class="back-btn font-display" type="button" data-back>&lsaquo; back</button>
+	</section>
+
+	<section class="view" id="about" aria-label="About me">
+		<img class="deco wave-top" src="assets/general/top-wave.png" alt="Wave vector on the top.">
+
+		<div class="portrait-stack">
+			<div class="vectors" aria-hidden="true"></div>
+			<button class="illustration" type="button" aria-label="learn about me!">
+				<span></span>
+			</button>
+		</div>
+
+		<a class="about-btn font-display" href="#book">learn about me!</a>
+
+		<button class="back-btn font-display" type="button" data-back>&lsaquo; back</button>
+		<img class="deco wave-bottom" src="assets/general/bottom-wave.png" alt="Wave vector on the top.">
+	</section>
+
+	<section class="view" id="book" aria-label="About me, the book">
+		<img class="deco wave-top" src="assets/general/top-wave.png" alt="Wave vector on the top.">
+
+		<div class="book-wrap">
+			<div class="book">
+				<div class="pages">
+					<div class="mobile-about-container">
+						<div class="mobile-photo"></div>
+						<div class="spread is-active" id="s0" role="tabpanel" aria-labelledby="t0">
+							<div class="page-left">
+								<h2 class="name font-display">Roxanne M. Alimboyogen</h2>
+								<p class="role">FRONTEND DEVELOPER</p>
+								<div class="skills">
+									<img class="stack-icon" src="assets/about/html.png"></img>
+									<img class="stack-icon" src="assets/about/css.png"></img>
+									<img class="stack-icon" src="assets/about/javascript.png"></img>
+									<img class="stack-icon" src="assets/about/figma.png"></img>
+									<img class="stack-icon" src="assets/about/react.png"></img>
+									<img class="stack-icon" src="assets/about/python.png"></img>
+								</div>
+							</div>
+							<div class="page-right">
+								<img class="portrait" src="assets/about/rox-photo.png" alt="Photo of Roxanne in corporate attire.">
+							</div>
+						</div>
+
+						<div class="spread" id="s1" role="tabpanel" aria-labelledby="t1">
+							<div class="page-left">
+								<h2 class="font-display">my story</h2>
+								<p>Hi! I'm a <strong>web developer</strong> that has strong passion in creating engaging, user-friendly
+									digital experiences. I specialize in <strong>frontend development and UI/UX design</strong>, ensuring
+									that the design is not only functional, but also visually appealing.</p>
+								<p>I'm a <strong>Magna Cum Laude graduate of the Polytechnic University of the Philippines</strong>,
+									Bachelor of Science in Computer Science.</p>
+							</div>
+							<div class="page-right">
+								<div class="page-illustration" role="img" aria-label="Illustration of Roxanne in a blue gown."></div>
+							</div>
+						</div>
+
+						<div class="spread" id="s2" role="tabpanel" aria-labelledby="t2">
+							<div class="page-left">
+								<h2 class="font-display">contact me!</h2>
+								<div class="contact-items">
+									<div class="contact-item contact-email">
+										<a href="mailto:roxannealimboyogen.628@gmail.com" target="_blank"><img class="contact-icon"
+												src="assets/about/contacts/email.png" alt="Email" /></a>
+										<p class="contact-text">roxannealimboyogen.628@gmail.com</p>
+									</div>
+
+									<div class="contact-item">
+										<a href="https://github.com/Monocerum" target="_blank"><img class="contact-icon"
+												src="assets/about/contacts/github.png" alt="GitHub" /></a>
+										<p class="contact-text">Monocerum</p>
+									</div>
+
+									<div class="contact-item">
+										<a href="https://www.linkedin.com/in/roxanne-alimboyogen-29b1a5288/" target="_blank"><img
+												class="contact-icon" src="assets/about/contacts/linkedin.png" alt="LinkedIn" /></a>
+										<p class="contact-text">Roxanne Alimboyogen</p>
+									</div>
+								</div>
+							</div>
+							<div class="page-right">
+								<div class="contact-photo" role="img" aria-label="Photo of Roxanne in corporate attire."></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tablist" role="tablist" aria-label="Book sections">
+					<button class="tab tab--tech-stack is-active" type="button" role="tab" id="t0" aria-selected="true"
+						aria-controls="s0">Tech
+						Stack</button>
+					<button class="tab tab--story" type="button" role="tab" id="t1" aria-selected="false" aria-controls="s1"
+						tabindex="-1">Story</button>
+					<button class="tab Contacts" type="button" role="tab" id="t2" aria-selected="false" aria-controls="s2"
+						tabindex="-1">Contact</button>
+				</div>
+			</div>
+
+
+		</div>
+
+		<button class="back-btn font-display" type="button" data-back>&lsaquo; back</button>
+
+		<img class="deco wave-bottom" src="assets/general/bottom-wave.png" alt="Wave vector on the bottom.">
+	</section>
+
+	<section class="view" id="portfolio" aria-label="Portfolio">
+		<img class="deco wave-top" src="assets/general/top-wave.png" alt="Wave vector on the bottom.">
+		<img class="deco wave-bottom" src="assets/general/bottom-wave.png" alt="Wave vector on the bottom.">
+
+		<h2 class="title-container-pf font-display">portfolio</h2>
+
+		<div class="carousel" id="carousel" role="group" aria-roledescription="carousel" aria-label="Projects" tabindex="0">
+			<button class="arrow arrow-prev" id="prev" type="button" aria-label="Previous project">
+				<img src="assets/portfolio/prev-arrow.png" alt="Arrow to move to the previous project." class="prev-arrow">
+			</button>
+			<button class="arrow arrow-next" id="next" type="button" aria-label="Next project">
+				<img src="assets/portfolio/next-arrow.png" alt="Arrow to move to the next project." class="next-arrow">
+			</button>
+		</div>
+
+		<div class="back-button">
+			<button class="back-btn font-display" id="backBtn" type="button">
+				&lsaquo; back
+			</button>
+		</div>
+		<div class="gallery" id="gallery" role="group" aria-label="Project pictures"></div>
+		<div class="progress" id="carouselProgress" role="progressbar" aria-label="Project" aria-valuemin="1">
+			<span class="progress-number font-display" id="carouselCount" aria-live="polite"></span>
+			<span class="progress-track">
+				<span class="progress-clip"><span class="progress-fill"></span></span>
+				<span class="progress-otter"><img src="assets/portfolio/otter-marker.png" alt="Otter marker for indication of the progress in the project carousel."></span>
+			</span>
+		</div>
+
+		<button class="back-btn font-display" type="button" data-back>&lsaquo; back</button>
+	</section>
+
+	<div class="project" id="project" role="dialog" aria-modal="true" aria-label="Project picture">
+		<div class="project-photo no-transition" id="projectPhoto">
+			<div class="project-scroll" id="projectScroll" tabindex="0">
+				<img id="projectImg" alt="Photo of the project." hidden>
+			</div>
+			<span class="project-empty font-display" id="projectEmpty">picture coming soon</span>
+		</div>
+		<div class="project-controls">
+			<button id="projectZoomOut" type="button" aria-label="Zoom out">&minus;</button>
+			<button id="projectZoomIn" type="button" aria-label="Zoom in">+</button>
+			<button id="projectClose" type="button" aria-label="Close picture">&times;</button>
+		</div>
+	</div>
+
+
+	<script src="js/projects.js"></script>
+	<script src="js/project.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/book.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/router.js"></script>
+</body>
+
+</html>
