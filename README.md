@@ -2,6 +2,8 @@
 
 A personal portfolio website showcasing my background, technical skills, and selected projects in web development and UI/UX design.
 
+**Live Demo**: https://monocerum.github.io/roxanne-portfolio-new/
+
 ## Features
 
 - **Home Page** – A themed landing page introducing the portfolio, presenting a character representative of myself (an otter).
