@@ -1,5 +1,26 @@
 window.PROJECTS = [
   {
+    title: "Expendirect",
+    summary: "Expense tracker for income, bills, and expenses, created using React and JavaScript.",
+    cover: "url(assets/portfolio/project-2.png)",
+    pics: ["assets/portfolio/expendirect/expendirect-home.jpeg",
+      "assets/portfolio/expendirect/expendirect-tracker.jpeg",
+      "assets/portfolio/expendirect/expendirect-transaction-form.jpeg",
+      "assets/portfolio/expendirect/expendirect-choose-color.jpeg",
+      "assets/portfolio/expendirect/expendirect-categories.jpeg",
+      "assets/portfolio/expendirect/expendirect-account-form.jpeg",
+      "assets/portfolio/expendirect/expendirect-payments.jpeg",
+      "assets/portfolio/expendirect/expendirect-payment-form.jpeg",
+      "assets/portfolio/expendirect/expendirect-demographics.jpeg",
+      "assets/portfolio/expendirect/expendirect-settings.jpeg",
+      "assets/portfolio/expendirect/expendirect-profile.jpeg",
+      "assets/portfolio/expendirect/expendirect-sidenav.jpeg"
+    ],
+    links: [{type: "github", url: "https://github.com/Monocerum/expendirect-v2"},
+      {type: "view", url: "https://expendirect.vercel.app/"}],
+    count: 5
+  },
+  {
     title: "Solipet",
     summary: "Pet e-commerce platform created using Laravel and Blade.",
     cover: "url(assets/portfolio/project-1.png)",
@@ -20,19 +41,6 @@ window.PROJECTS = [
     ],
     links: [{type: "github", url: "https://github.com/Monocerum/solipet"},
       {type: "view", url: "https://solipet.ethiodeploy.app/home"}],
-    count: 5
-  },
-  {
-    title: "Expendirect",
-    summary: "UI/UX for expense tracking application created using Figma.",
-    cover: "url(assets/portfolio/project-2.png)",
-    pics: ["assets/portfolio/expendirect/expendirect-homepage.png",
-      "assets/portfolio/expendirect/expendirect-tracker.png",
-      "assets/portfolio/expendirect/expendirect-categories.png",
-      "assets/portfolio/expendirect/expendirect-accounts.png",
-      "assets/portfolio/expendirect/expendirect-form.png"
-    ],
-    links: [{type: "figma", url: "https://drive.google.com/file/d/1O03Gb9zrh4NMuE7k3eUJOakJYybgoYgy/view?usp=sharing"}],
     count: 5
   },
   {
