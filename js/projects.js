@@ -1,7 +1,7 @@
 window.PROJECTS = [
   {
     title: "Expendirect",
-    summary: "Expense tracker for income, bills, and expenses, created using React and JavaScript.",
+    summary: "Expense tracker for income, bills, and expenses, created using React (V1), Vue.js (V2), and JavaScript.",
     cover: "url(assets/portfolio/project-2.png)",
     pics: ["assets/portfolio/expendirect/expendirect-home.jpeg",
       "assets/portfolio/expendirect/expendirect-tracker.jpeg",
